@@ -1,0 +1,10 @@
+# Core
+numpy
+pandas
+matplotlib
+
+# Simulation
+scipy
+
+# Interface
+PyQt5
