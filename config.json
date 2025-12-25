@@ -1,0 +1,19 @@
+{
+    "reactor_name": "TEKNOFEST-NUKLEER-TX1",
+    "initial_state": {
+        "temperature": 300.0,
+        "pressure": 101.325,
+        "neutron_flux": 1.0e8,
+        "control_rod_pos": 100
+    },
+    "thresholds": {
+        "max_temp": 600.0,
+        "critical_temp": 850.0,
+        "max_pressure": 150.0
+    },
+    "coefficients": {
+        "heating_rate": 0.05,
+        "cooling_rate": 0.08,
+        "flux_multiplier": 1.2
+    }
+}
